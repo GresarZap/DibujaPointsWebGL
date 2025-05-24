@@ -21,7 +21,7 @@ let uMatrizModelo;
 
 async function main() {
     console.log('leyendo archivo...');
-    const imgDataText = await loadFile('data/pixel_data.json');
+    const imgDataText = await loadFile('pixel_data.json');
     console.log('archivo leido');
     imgData = await JSON.parse(imgDataText);
 
