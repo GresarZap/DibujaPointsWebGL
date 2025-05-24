@@ -1,7 +1,7 @@
 export async function loadFile(path) {
     try {
 
-        let url = buildUrl("../data/"+path);
+        let url = buildUrl("data/"+path);
 
         const response = await fetch(url);
         
